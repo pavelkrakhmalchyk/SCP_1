@@ -24,11 +24,7 @@ controllerName="sap.ui.demo.walkthrough.controller.App"
                                     <Text text="Last name"/>
                                 </Column>
                                 <Column>
-<<<<<<< Upstream, based on master
-                                	<Label text="User Gender" design="Bold"/>
-=======
                                     <Label text="Gender" design="Bold"/>
->>>>>>> 173bc47 Gender header column display edited
                                 </Column>
                             </columns>
                             <items>
