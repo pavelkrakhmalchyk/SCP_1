@@ -24,7 +24,7 @@ controllerName="sap.ui.demo.walkthrough.controller.App"
                                     <Text text="Last name"/>
                                 </Column>
                                 <Column>
-                                    <Label text="Gender" design="Bold"/>
+                                    <Text text="User Gender"/>
                                 </Column>
                             </columns>
                             <items>
