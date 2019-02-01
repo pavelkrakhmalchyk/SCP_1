@@ -15,16 +15,16 @@ controllerName="sap.ui.demo.walkthrough.controller.App"
                             }">
                             <columns>
                                 <Column>
-                                    <Text text="Username"/>
+                                    <Text text="User name"/>
                                 </Column>
                                 <Column>
-                                    <Text text="Firstname"/>
+                                    <Text text="First name"/>
                                 </Column>
                                 <Column>
-                                    <Text text="Lastname"/>
+                                    <Text text="Last name"/>
                                 </Column>
                                 <Column>
-                                    <Text text="Gender"/>
+                                	<Label text="User Gender" design="Bold"/>
                                 </Column>
                             </columns>
                             <items>
