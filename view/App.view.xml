@@ -1,52 +1,45 @@
-<mvc:View
-controllerName="sap.ui.demo.walkthrough.controller.App"
-	xmlns="sap.m"
-    displayBlock="true"
-	xmlns:mvc="sap.ui.core.mvc">
-    <Shell>
-        <App class="sapUiSizeCompact">
-            <pages>
-                <Page title="People">
-                    <content>
-                        <Table
-                            id="PeopleList"
-                            items="{
-                                path: 'people>/value'
-                            }">
-                            <columns>
-                                <Column>
-                                    <Text text="User name"/>
-                                </Column>
-                                <Column>
-                                    <Text text="First name"/>
-                                </Column>
-                                <Column>
-                                    <Text text="Last name"/>
-                                </Column>
-                                <Column>
-                                    <Text text="User Gender"/>
-                                </Column>
-                            </columns>
-                            <items>
-                                <ColumnListItem>
-                                    <cells>
-                                        <Text text="{people>UserName}"/>
-                                    </cells>
-                                    <cells>
-                                        <Text text="{people>FirstName}"/>
-                                    </cells>
-                                    <cells>
-                                        <Text text="{people>LastName}"/>
-                                    </cells>
-                                    <cells>
-                                        <Text text="{people>Gender}"/>
-                                    </cells>
-                                </ColumnListItem>
-                            </items>
-                        </Table>
-                    </content>
-                </Page>
-            </pages>
-        </App>
-    </Shell>
-    </mvc:View>
+<mvc:View controllerName="sap.ui.demo.walkthrough.controller.App" xmlns="sap.m" displayBlock="true" xmlns:mvc="sap.ui.core.mvc">
+	<Shell>
+		<App class="sapUiSizeCompact">
+			<pages>
+				<Page title="People">
+					<content>
+						<Table id="PeopleList" items="{ path: 'people>/value' }">
+							<columns>
+								<Column>
+									<Text text="User name"/>
+								</Column>
+								<Column>
+									<Text text="First name"/>
+								</Column>
+								<Column>
+									<Text text="Last name"/>
+								</Column>
+								<Column>
+									<Label text="User Gender" design="Bold"/>
+								</Column>
+							</columns>
+							<items>
+								<ColumnListItem>
+									<cells>
+										<Text text="{people>UserName}"/>
+									</cells>
+									<cells>
+										<Text text="{people>FirstName}"/>
+										
+									</cells>
+									<cells>
+										<Text text="{people>LastName}"/>
+									</cells>
+									<cells>
+										<Text text="{people>Gender}"/>
+									</cells>
+								</ColumnListItem>
+							</items>
+						</Table>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
